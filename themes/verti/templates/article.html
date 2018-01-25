@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}{{ article.title }}{% endblock %}
+
+{% block content %}
+<!-- Main -->
+	<div id="main-wrapper">
+		<div class="container">
+			<div id="content">
+
+				<!-- Content -->
+					<article>
+
+                        {{ article.content }}
+
+					</article>
+
+			</div>
+		</div>
+	</div>
+{% endblock %}

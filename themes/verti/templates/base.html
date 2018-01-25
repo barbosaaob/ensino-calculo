@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<!--
+	Verti by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="{{ DEFAULT_LANG }}">
+	<head>
+	{% block head %}
+		<title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--[if lte IE 8]><script src="{{ SITEURL }}/assets/js/ie/html5shiv.js"></script><![endif]-->
+        <link rel="stylesheet" href="{{ SITEURL }}/assets/css/main.css" />
+        <!--[if lte IE 8]><link rel="stylesheet" href="{{ SITEURL }}/assets/css/ie8.css" /><![endif]-->
+	{% endblock head %}
+	</head>
+	<body class="homepage">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header-wrapper">
+					<header id="header" class="container">
+
+						<!-- Logo -->
+							<div id="logo">
+                                <h1><a href="{{ SITEURL }}/">Verti</a></h1>
+								<span>by HTML5 UP</span>
+							</div>
+
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+                                    <li class="current"><a href="{{ SITEURL }}/">Welcome</a></li>
+									<li>
+										<a href="#">Dropdown</a>
+										<ul>
+											<li><a href="#">Lorem ipsum dolor</a></li>
+											<li><a href="#">Magna phasellus</a></li>
+											<li>
+												<a href="#">Phasellus consequat</a>
+												<ul>
+													<li><a href="#">Lorem ipsum dolor</a></li>
+													<li><a href="#">Phasellus consequat</a></li>
+													<li><a href="#">Magna phasellus</a></li>
+													<li><a href="#">Etiam dolore nisl</a></li>
+												</ul>
+											</li>
+											<li><a href="#">Veroeros feugiat</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Left Sidebar</a></li>
+									<li><a href="#">Right Sidebar</a></li>
+									<li><a href="#">No Sidebar</a></li>
+								</ul>
+							</nav>
+					</header>
+				</div>
+
+			{% block content %}
+			{% endblock %}
+
+			<!-- Footer -->
+				<div id="footer-wrapper">
+					<footer id="footer" class="container">
+						<div class="row">
+							<div class="6u 12u$(medium) 12u$(small)">
+
+								<!-- Links -->
+									<section class="widget links">
+										<h3>Random Stuff</h3>
+										<ul class="style2">
+											<li><a href="#">Etiam feugiat condimentum</a></li>
+											<li><a href="#">Aliquam imperdiet suscipit odio</a></li>
+											<li><a href="#">Sed porttitor cras in erat nec</a></li>
+											<li><a href="#">Felis varius pellentesque potenti</a></li>
+											<li><a href="#">Nullam scelerisque blandit leo</a></li>
+										</ul>
+									</section>
+
+							</div>
+							<div class="6u 12u$(medium) 12u$(small)">
+
+								<!-- Contact -->
+									<section class="widget contact last">
+										<h3>Contact Us</h3>
+										<ul>
+											<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+											<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+											<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+											<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+											<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
+										</ul>
+                                        <p>UFGD - Universidade Federal da Grande Dourados<br />
+                                            FACET - Faculdade de Ciências Exatas e Tecnologias</p>
+									</section>
+
+							</div>
+						</div>
+						<div class="row">
+							<div class="12u">
+								<div id="copyright">
+									<ul class="menu">
+                                        <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                                        <li>Gerado com <a href="http://blog.getpelican.com/" target="_blank">Pelican</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</footer>
+				</div>
+
+			</div>
+
+		<!-- Scripts -->
+
+            <script src="{{ SITEURL }}/assets/js/jquery.min.js"></script>
+			<script src="{{ SITEURL }}/assets/js/jquery.dropotron.min.js"></script>
+			<script src="{{ SITEURL }}/assets/js/skel.min.js"></script>
+			<script src="{{ SITEURL }}/assets/js/util.js"></script>
+            <!--[if lte IE 8]><script src="{{ SITEURL }}/assets/js/ie/respond.min.js"></script><![endif]-->
+            <script src="{{ SITEURL }}/assets/js/main.js"></script>
+
+	</body>
+</html>
