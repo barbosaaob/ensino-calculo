@@ -24,34 +24,31 @@
 
 						<!-- Logo -->
 							<div id="logo">
-                                <h1><a href="{{ SITEURL }}/">Verti</a></h1>
-								<span>by HTML5 UP</span>
+                                <h1><a href="{{ SITEURL }}/">Cálculo</a></h1>
+								<!-- <span></span> -->
 							</div>
 
 						<!-- Nav -->
 							<nav id="nav">
 								<ul>
-                                    <li class="current"><a href="{{ SITEURL }}/">Welcome</a></li>
+                                    <li {% if page_name == 'index' %}class="current"{% endif %}><a href="{{ SITEURL }}/">Início</a></li>
 									<li>
-										<a href="#">Dropdown</a>
+										<a href="#">Conteúdo</a>
 										<ul>
-											<li><a href="#">Lorem ipsum dolor</a></li>
-											<li><a href="#">Magna phasellus</a></li>
-											<li>
-												<a href="#">Phasellus consequat</a>
+											<li><a href="#">Capítulo I</a></li>
+											<li><a href="#">Capítulo II</a></li>
+											<li><a href="#">Capítulo III</a>
 												<ul>
-													<li><a href="#">Lorem ipsum dolor</a></li>
-													<li><a href="#">Phasellus consequat</a></li>
-													<li><a href="#">Magna phasellus</a></li>
-													<li><a href="#">Etiam dolore nisl</a></li>
+													<li><a href="#">Seção 1</a></li>
+													<li><a href="#">Seção 2</a></li>
+													<li><a href="#">Seção 3</a></li>
 												</ul>
 											</li>
-											<li><a href="#">Veroeros feugiat</a></li>
+											<li><a href="#">Capítulo IV</a></li>
 										</ul>
 									</li>
-									<li><a href="#">Left Sidebar</a></li>
-									<li><a href="#">Right Sidebar</a></li>
-									<li><a href="#">No Sidebar</a></li>
+									<li><a href="#">Ementa do Curso</a></li>
+                                    <li><a href="#">Sobre o Projeto</a></li>
 								</ul>
 							</nav>
 					</header>
@@ -68,13 +65,10 @@
 
 								<!-- Links -->
 									<section class="widget links">
-										<h3>Random Stuff</h3>
+										<h3>Referências Externas</h3>
 										<ul class="style2">
-											<li><a href="#">Etiam feugiat condimentum</a></li>
-											<li><a href="#">Aliquam imperdiet suscipit odio</a></li>
-											<li><a href="#">Sed porttitor cras in erat nec</a></li>
-											<li><a href="#">Felis varius pellentesque potenti</a></li>
-											<li><a href="#">Nullam scelerisque blandit leo</a></li>
+											<li><a href="#">Youtube</a></li>
+											<li><a href="#">Curso da USP</a></li>
 										</ul>
 									</section>
 
@@ -83,13 +77,14 @@
 
 								<!-- Contact -->
 									<section class="widget contact last">
-										<h3>Contact Us</h3>
+										<h3>Entre em Contato</h3>
 										<ul>
-											<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+											<!-- <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li> -->
 											<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-											<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-											<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-											<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
+											<li><a href="#" class="icon fa-envelope"><span class="label">E-mail</span></a></li>
+											<!-- <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li> -->
+											<!-- <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li> -->
+											<!-- <li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li> -->
 										</ul>
                                         <p>UFGD - Universidade Federal da Grande Dourados<br />
                                             FACET - Faculdade de Ciências Exatas e Tecnologias</p>
