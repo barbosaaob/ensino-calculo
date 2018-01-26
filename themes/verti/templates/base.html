@@ -67,8 +67,9 @@
 									<section class="widget links">
 										<h3>Referências Externas</h3>
 										<ul class="style2">
-											<li><a href="#">Youtube</a></li>
-											<li><a href="#">Curso da USP</a></li>
+                                            {% for name, link in LINKS %}
+                                            <li><a href="{{ link }}" target="_blank">{{ name }}</a></li>
+                                            {% endfor %}
 										</ul>
 									</section>
 
@@ -79,12 +80,9 @@
 									<section class="widget contact last">
 										<h3>Entre em Contato</h3>
 										<ul>
-											<!-- <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li> -->
-											<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-											<li><a href="#" class="icon fa-envelope"><span class="label">E-mail</span></a></li>
-											<!-- <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li> -->
-											<!-- <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li> -->
-											<!-- <li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li> -->
+                                            {% for name, link in SOCIAL %}
+                                            <li><a href="{{ link }}" target="_blank" class="icon fa-{{ name }}"><span class="label">{{ name }}</span></a></li>
+                                            {% endfor %}
 										</ul>
                                         <p>UFGD - Universidade Federal da Grande Dourados<br />
                                             FACET - Faculdade de Ciências Exatas e Tecnologias</p>

@@ -15,6 +15,8 @@ DEFAULT_LANG = 'pt'
 THEME = 'themes/verti'
 THEME_STATIC_DIR = ''
 
+STATIC_PATHS = ['images']
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -23,14 +25,12 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('Youtube', '#'),
+         ('Curso da USP', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('facebook', '#'),
+          ('email', '#'),)
 
 DEFAULT_PAGINATION = 10
 
