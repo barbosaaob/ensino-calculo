@@ -1,7 +1,10 @@
 title: Teste2
+subtitle: Subtitle do artigl teste2
 tags: teste
 date: 2018-01-25
 category: teste
+thumb: pic02.jpg
+preview: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus
 
 # Teste 2
 # No Sidebar

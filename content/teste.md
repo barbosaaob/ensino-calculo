@@ -1,7 +1,10 @@
 title: Teste
+subtitle: Subtitle do artigl teste
 tags: teste
 date: 2018-01-25
 category: teste
+thumb: pic01.jpg
+preview: Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
 
 # No Sidebar
 Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.

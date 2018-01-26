@@ -28,13 +28,13 @@
 
 					<!-- Box -->
 						<section class="box feature">
-                            <a href="{{ SITEURL }}/{{ article.url }}" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+                            <a href="{{ SITEURL }}/{{ article.url }}" class="image featured"><img src="{{ SITEURL }}/images/thumb/{{ article.thumb }}" alt="" /></a>
 							<div class="inner">
 								<header>
                                     <h2>{{ article.title }}</h2>
-									<p>Here's another intriguing subtitle</p>
+                                    <p>{{ article.subtitle }}</p>
 								</header>
-								<p>Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus. Praesent sed semper amet bibendum tristique fringilla.</p>
+                                <p>{{ article.preview }}</p>
 							</div>
 						</section>
 
