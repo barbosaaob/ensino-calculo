@@ -15,6 +15,9 @@ DEFAULT_LANG = 'pt'
 THEME = 'themes/verti'
 THEME_STATIC_DIR = ''
 
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['neighbors']
+
 STATIC_PATHS = ['images']
 
 # Feed generation is usually not desired when developing
