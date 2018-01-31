@@ -3,7 +3,7 @@ subtitle: Subtitle
 tags: terceiro
 date: 2018-01-28
 modified: 2018-01-31 12:58
-category: aulas
+category: aulas/Capítulo 2
 slug: terceiro-artigo
 sortorder: 003
 thumb: pic03.jpg

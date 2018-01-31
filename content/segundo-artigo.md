@@ -3,7 +3,7 @@ subtitle: Subtitle
 tags: segundo
 date: 2018-01-28
 modified: 2018-01-31 12:57
-category: aulas
+category: aulas/Capítulo 2
 slug: segundo-artigo
 sortorder: 002
 thumb: pic02.jpg

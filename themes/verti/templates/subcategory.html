@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %}{{ subcategory.shortname }}{% endblock title %}
+
+{% block content %}
+<!-- Main -->
+	<div id="main-wrapper">
+		<div class="container">
+			<div id="content">
+
+				<!-- Content -->
+					<article>
+
+                        <h1>{{ subcategory.shortname }}</h1>
+
+                        <ul>
+                            {% for article in articles|sort(attribute='sortorder') %}
+                            <li><a href="{{ article.url }}">{{ article.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+
+					</article>
+
+			</div>
+		</div>
+	</div>
+{% endblock content %}
