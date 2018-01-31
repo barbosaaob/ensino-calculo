@@ -15,6 +15,17 @@ DEFAULT_LANG = 'pt'
 THEME = 'themes/verti'
 THEME_STATIC_DIR = ''
 
+ARTICLE_SAVE_AS = '{category}/{slug}.html'
+PAGE_SAVE_AS = '{category}/{slug}.html'
+
+TAG_SAVE_AS = ''         # dir tags
+TAGS_SAVE_AS = ''        # file tags.html
+CATEGORY_SAVE_AS = ''    # dir categories
+CATEGORIES_SAVE_AS = ''  # file categories.html
+AUTHOR_SAVE_AS = ''      # dir authors
+AUTHORS_SAVE_AS = ''     # file authors.html
+ARCHIVES_SAVE_AS = ''    # file archives.html
+
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['neighbors']
 
