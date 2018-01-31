@@ -11,7 +11,7 @@
 				</div>
 				<div class="5u 12u(medium)">
 					<ul>
-						<li><a href="#" class="button big icon fa-arrow-circle-right">Começar</a></li>
+                        <li><a href="{{ SITEURL }}/{{ articles[0].url }}" class="button big icon fa-arrow-circle-right">Começar</a></li>
                         <li><a href="{{ SITEURL }}/#main-wrapper" class="button alt big icon fa-question-circle">Informações</a></li>
 					</ul>
 				</div>
@@ -57,9 +57,9 @@
                                 {% for page in pages %}
                                     {% if page.slug == "sobre-o-projeto" %}
                                         <p>{{ page.summary }}</p>
+                                        <a href="{{ SITEURL }}/{{ page.url }}" class="button icon fa-arrow-circle-right">Continue lendo</a>
                                     {% endif %}
                                 {% endfor %}
-                                <a href="{{ SITEURL }}/info/sobre-o-projeto.html" class="button icon fa-arrow-circle-right">Continue lendo</a>
 							</section>
 						</div>
 

@@ -47,8 +47,9 @@
 											<li><a href="#">Capítulo IV</a></li>
 										</ul>
 									</li>
-                                    <li><a href="{{ SITEURL }}/info/ementa-do-curso.html">Ementa do Curso</a></li>
-                                    <li><a href="{{ SITEURL }}/info/sobre-o-projeto.html">Sobre o Projeto</a></li>
+                                    {% for page in pages %}
+                                    <li {% if output_file == page.save_as %}class="current"{% endif %}><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
+                                    {% endfor %}
 								</ul>
 							</nav>
 					</header>
