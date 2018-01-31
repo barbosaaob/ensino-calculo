@@ -3,8 +3,9 @@ subtitle: Subtítulo
 tags: ementa curso
 date: 2018-01-26
 category: info
+slug: ementa-do-curso
 thumb: pic05.jpg
-preview: Aqui vai uma breve introdução sobre a ementa do curso
+summary: Aqui vai uma breve introdução sobre a ementa do curso
 
 # Ementa do Curso
  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus malesuada

@@ -3,8 +3,9 @@ subtitle: Subtítulo
 tags: sobre projeto
 date: 2018-01-26
 category: info
+slug: sobre-o-projeto
 thumb: pic05.jpg
-preview: Aqui vai uma breve introdução sobre o conteúdo da página.
+summary: Aqui vai uma breve introdução sobre o conteúdo da página.
 
 # Sobre o Projeto
  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus malesuada
