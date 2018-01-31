@@ -21,18 +21,16 @@ ARTICLE_ORDER_BY = 'sortorder'
 PAGE_SAVE_AS = '{category}/{slug}.html'
 PAGE_URL = '{category}/{slug}.html'
 
-TAG_SAVE_AS = ''            # dir tags
-TAGS_SAVE_AS = ''           # file tags.html
-CATEGORY_SAVE_AS = ''       # dir categories
-CATEGORIES_SAVE_AS = ''     # file categories.html
-SUBCATEGORY_SAVE_AS = ''    # dir subcategories
-SUBCATEGORIES_SAVE_AS = ''  # file subcategories.html
-AUTHOR_SAVE_AS = ''         # dir authors
-AUTHORS_SAVE_AS = ''        # file authors.html
-ARCHIVES_SAVE_AS = ''       # file archives.html
+TAG_SAVE_AS = ''         # dir tags
+TAGS_SAVE_AS = ''        # file tags.html
+# CATEGORY_SAVE_AS = ''    # dir categories
+# CATEGORIES_SAVE_AS = ''  # file categories.html
+AUTHOR_SAVE_AS = ''      # dir authors
+AUTHORS_SAVE_AS = ''     # file authors.html
+ARCHIVES_SAVE_AS = ''    # file archives.html
 
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['neighbors', 'subcategory']
+PLUGINS = ['neighbors']
 
 STATIC_PATHS = ['images']
 

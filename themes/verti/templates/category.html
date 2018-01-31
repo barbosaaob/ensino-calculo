@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}{{ subcategory.shortname }}{% endblock title %}
+{% block title %}{{ category }}{% endblock title %}
 
 {% block content %}
 <!-- Main -->
@@ -11,11 +11,11 @@
 				<!-- Content -->
 					<article>
 
-                        <h1>{{ subcategory.shortname }}</h1>
+                        <h1>{{ category }}</h1>
 
                         <ul>
                             {% for article in articles|sort(attribute='sortorder') %}
-                            <li><a href="{{ article.url }}">{{ article.title }}</a></li>
+                            <li><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></li>
                             {% endfor %}
                         </ul>
 

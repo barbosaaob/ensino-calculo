@@ -32,19 +32,19 @@
 							<nav id="nav">
 								<ul>
                                     <li {% if page_name == 'index' %}class="current"{% endif %}><a href="{{ SITEURL }}/">Início</a></li>
-									<li>
-										<a href="#">Conteúdo</a>
+                                    <li {% if category or article or output_file == 'categories.html' %}class="current"{% endif %}>
+                                        <a href="{{ SITEURL }}/categories.html">Conteúdo</a>
 										<ul>
-											<li><a href="#">Capítulo I</a></li>
-											<li><a href="#">Capítulo II</a></li>
-											<li><a href="#">Capítulo III</a>
-												<ul>
-													<li><a href="#">Seção 1</a></li>
-													<li><a href="#">Seção 2</a></li>
-													<li><a href="#">Seção 3</a></li>
-												</ul>
-											</li>
-											<li><a href="#">Capítulo IV</a></li>
+                                            {% for category, articles in categories %}
+                                            <li>
+                                                <a href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a>
+                                                <ul>
+                                                    {% for article in articles %}
+                                                    <li><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></li>
+                                                    {% endfor %}
+                                                </ul>
+                                            </li>
+                                            {% endfor %}
 										</ul>
 									</li>
                                     {% for page in pages %}

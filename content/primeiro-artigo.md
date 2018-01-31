@@ -3,7 +3,7 @@ subtitle: Subtitle
 tags: primeiro
 date: 2018-01-28
 modified: 2018-01-31 12:48
-category: aulas/Capítulo 1
+category: Capítulo 1
 slug: primeiro-artigo
 sortorder: 001
 thumb: pic01.jpg
