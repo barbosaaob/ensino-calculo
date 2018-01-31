@@ -16,6 +16,7 @@ THEME = 'themes/verti'
 THEME_STATIC_DIR = ''
 
 ARTICLE_SAVE_AS = '{category}/{slug}.html'
+ARTICLE_URL = '{category}/{slug}.html'
 PAGE_SAVE_AS = '{category}/{slug}.html'
 
 TAG_SAVE_AS = ''         # dir tags
