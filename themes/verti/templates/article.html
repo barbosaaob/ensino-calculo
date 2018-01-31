@@ -10,23 +10,25 @@
 
 				<!-- Content -->
                 <article>
+
+                    {{ article.content }}
+
                     <center><p>
-                            {% if article.prev_article %}
-                            <a href="{{ SITEURL }}/{{ article.prev_article.url}}">
-                                Tópico anterior: {{ article.prev_article.title }}
+                            {# "topico anterior" == next_article, pois o pelican ordena os artigos de forma decrescente #}
+                            {% if article.next_article %}
+                            <a href="{{ SITEURL }}/{{ article.next_article.url}}">
+                                Tópico anterior: {{ article.next_article.title }}
                             </a>
                             {% endif %}
                             {% if article.prev_article and article.next_article %}
                             &nbsp;&nbsp;|&nbsp;&nbsp;
                             {% endif %}
-                            {% if article.next_article %}
-                            <a href="{{ SITEURL }}/{{ article.next_article.url}}">
-                                Próximo tópico: {{ article.next_article.title }}
+                            {% if article.prev_article %}
+                            <a href="{{ SITEURL }}/{{ article.prev_article.url}}">
+                                Próximo tópico: {{ article.prev_article.title }}
                             </a>
                             {% endif %}
                     </p></center>
-
-                    {{ article.content }}
 
                 </article>
 

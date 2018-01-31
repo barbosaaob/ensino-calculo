@@ -17,6 +17,7 @@ THEME_STATIC_DIR = ''
 
 ARTICLE_SAVE_AS = '{category}/{slug}.html'
 ARTICLE_URL = '{category}/{slug}.html'
+ARTICLE_ORDER_BY = 'sortorder'
 PAGE_SAVE_AS = '{category}/{slug}.html'
 
 TAG_SAVE_AS = ''         # dir tags

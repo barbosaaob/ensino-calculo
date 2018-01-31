@@ -5,6 +5,7 @@ date: 2018-01-28
 modified: 2018-01-31 12:58
 category: aulas
 slug: terceiro-artigo
+sortorder: 003
 thumb: pic03.jpg
 summary: Essa é uma breve introdução sobre o assunto da aula 3.
 

@@ -5,6 +5,7 @@ date: 2018-01-28
 modified: 2018-01-31 12:57
 category: aulas
 slug: segundo-artigo
+sortorder: 002
 thumb: pic02.jpg
 summary: Essa é uma breve introdução sobre o assunto da aula 2.
 

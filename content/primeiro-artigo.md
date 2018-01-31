@@ -5,6 +5,7 @@ date: 2018-01-28
 modified: 2018-01-31 12:48
 category: aulas
 slug: primeiro-artigo
+sortorder: 001
 thumb: pic01.jpg
 summary: Essa é uma breve introdução sobre o assunto da aula.
 
